@@ -141,7 +141,7 @@ Launching distributed training is hard:
 Easier way: build a `config.yml` (or `accelerate config`) and then run `accelerate launch script.py`.
 The accelerate library will shard the data, and distribute the training. It requires custom code, but still pretty abstracted, without having to handle any details of the sharding or distributed training.
 
-![accelerate config examples](accelerate-config.png)
+![accelerate config examples](img/accelerate-config.png)
 
 ## Axolotl integration for FSDP/Accelerate
 

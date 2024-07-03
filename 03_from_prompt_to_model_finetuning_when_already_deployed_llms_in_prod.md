@@ -48,7 +48,7 @@ In Corbitt's experience, many people don't do this properly.
 
 ## 5. Thou Shalt Choose an Appropriate Model
 
-![Effect on model choice and cost](03_appropriate_model.png)
+![Effect on model choice and cost](img/03_appropriate_model.png)
 
 Fine-tuning gets you ~1000x savings compared to GPT-4.
 
@@ -65,7 +65,7 @@ Fast evaluations are critical to speed up the iteration cycle.
 
 Can either be run as part of the training loop, or when changing the prompt.
 
-![Example screenshot using Open pipe, comparing performance of GPT-4 against fine-tuned models](03_openpipe_model_comparison.png)
+![Example screenshot using Open pipe, comparing performance of GPT-4 against fine-tuned models](img/03_openpipe_model_comparison.png)
 
 Suggests to start with the ["LLMs as judge"](https://huggingface.co/learn/cookbook/llm_judge) approach as another quick way to perform relatively fast evaluations of a prompt or a model.
 
